@@ -17,7 +17,7 @@
 
 Для корректной работы в программе Postman, кроме заголовков: Content-type и Authorization, так же необходимо передавать заголовки: Content-Length и Host. Остальные заголовки можно отключить, а можно и не отключать. В данном случае на работу они не влияют.
 
-Авторизацию в программе Postman можно сделать через Authorization > OAuth 2.0 поле Token: ==значение токена==, поле Header Prefix: ==Token==. 
+Авторизацию в программе Postman можно сделать через Authorization > OAuth 2.0 поле Token: *значение токена*, поле Header Prefix: *Token*. 
 
 ==<img src="./_resources/auth.png" width="821" height="287">  
 ==
@@ -38,4 +38,4 @@
 &nbsp;
 
 \*\* Пример тела сообщения для POST, PUT, PATCH (создание, редактирование или частичное редактирование сообщения) Программа Postman.  
-<img src="../_resources/body.png" width="904" height="232">
+<img src="./_resources/body.png" width="904" height="232">
