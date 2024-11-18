@@ -30,7 +30,6 @@ CommentRouter.register('', CommentViewSet)
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('posts/', include(PostRouter.urls)),
-    # path('posts/<int:post_id>', include(PostRouter.urls)),
     path('posts/<int:post_id>/comments/', include(CommentRouter.urls)),
     path('posts/<int:post_id>/likes/', LikeView.as_view()),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
